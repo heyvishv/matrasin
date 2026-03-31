@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mātrāśin — Stop Dieting. Start Building Your Health.</title>
+<meta name="description" content="Science-based nutrition for women who want strength, balance, and sustainable results. By Dt. Pragna Pandav Katariya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dumy.css">
+</head>
+<body>
+
+<!-- ══════════ PAGE LOADER ══════════ -->
+<div id="page-loader">
+  <div class="loader-logo">Mātrāśin</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+</div>
+
+<!-- ══════════ CUSTOM CURSOR ══════════ -->
+<div class="cursor">
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img
+          src="logo.png"
+          alt="Mātrāśin"
+          class="nav-logo-img"
+          onerror="this.style.display='none'; document.getElementById('navLogoFallback').style.display='block';"
+        >
+        <span id="navLogoFallback" class="nav-logo-fallback" style="display:none;">Mātrāśin</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#brand-philosophy">Philosophy</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#blog">Insights</a></li>
+        <li><a href="#contact" class="nav-cta"><span>Book Consultation</span></a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════ MOBILE MENU ══════════ -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="toggleMenu()" aria-label="Close menu">✕</button>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#brand-philosophy" onclick="toggleMenu()">Philosophy</a>
+  <a href="#programs" onclick="toggleMenu()">Programs</a>
+  <a href="#pricing" onclick="toggleMenu()">Pricing</a>
+  <a href="#blog" onclick="toggleMenu()">Insights</a>
+  <a href="#contact" onclick="toggleMenu()">Book Consultation</a>
+  <div class="mobile-menu-bg-text">Mātrāśin</div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section id="hero">
+  <!-- Ambient orbs -->
+  <div class="hero-bg-orb hero-orb-1"></div>
+  <div class="hero-bg-orb hero-orb-2"></div>
+  <div class="hero-bg-pattern"></div>
+
+  <!-- Left: Copy -->
+  <div class="hero-left">
+    <div class="hero-eyebrow">Science-Based Nutrition for Women</div>
+
+    <h1 class="hero-headline">
+      <span class="hero-line"><span class="hero-line-inner">Stop Dieting.</span></span>
+      <span class="hero-line"><span class="hero-line-inner">Start Building</span></span>
+      <span class="hero-line"><span class="hero-line-inner">Your Health.</span></span>
+    </h1>
+
+    <p class="hero-sub">
+      Science-based nutrition for women who want strength, balance, and sustainable results — not quick fixes.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary magnetic">
+        <span>Start Your Journey →</span>
+      </a>
+      <a href="#contact" class="btn-secondary magnetic">
+        <span>Book Consultation</span>
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">
+          <span data-count="500" data-suffix="+">500+</span>
+        </div>
+        <div class="hero-stat-label">Lives transformed</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">
+          <span data-count="7" data-suffix="">7</span>
+        </div>
+        <div class="hero-stat-label">Qualifications</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">
+          <span data-count="10" data-suffix="+">10+</span>
+        </div>
+        <div class="hero-stat-label">Years of practice</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: Visual -->
+   
+  <div class="hero-right">
+
+    
+
+
+    <div class="hero-deco-circle hero-deco-circle-1"></div>
+    <div class="hero-deco-circle hero-deco-circle-2"></div>
+    <div class="hero-deco-circle hero-deco-circle-3"></div>
+    <div class="hero-right-inner">
+         <div class="hero-image-card tilt-card">
+      <img src="yoga.jpeg" alt="Healthy lifestyle">
+    </div>
+      <div class="hero-float-card tilt-card">
+        <h3>Your body is not the problem.</h3>
+        <p>The diet industry is. We build systems that work with your biology, not against it.</p>
+        <div class="hero-tag-row">
+          <span class="hero-tag">Hormonal Health</span>
+          <span class="hero-tag">Fat Loss</span>
+          <span class="hero-tag">Strength</span>
+          <span class="hero-tag">Longevity</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     MARQUEE TICKER
+══════════════════════════════════════════ -->
+<div id="logo-banner">
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span class="marquee-item">Personalized Nutrition</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Hormone Balance</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Sustainable Fat Loss</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Muscle Gain</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Women's Health</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Thyroid Nutrition</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Mindful Eating</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Lifelong Wellness</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Personalized Nutrition</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Hormone Balance</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Sustainable Fat Loss</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Muscle Gain</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Women's Health</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Thyroid Nutrition</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Mindful Eating</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Lifelong Wellness</span><span class="marquee-dot">·</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     PHILOSOPHY CONTRAST
+══════════════════════════════════════════ -->
+<section id="philosophy">
+  <div class="container">
+    <div class="philosophy-grid">
+      <!-- Left -->
+      <div>
+        <span class="section-label" data-reveal="up">Our Approach</span>
+        <h2 class="section-title" data-reveal="up" data-delay="0.1">
+          You don't <em>lose</em><br>anything here.
+        </h2>
+        <div class="divider" data-reveal="up" data-delay="0.2"></div>
+        <p class="philosophy-quote" data-reveal="up" data-delay="0.25">
+          "At Mātrāśin, you only gain — health, strength, confidence, and metabolic resilience."
+        </p>
+        <a href="#contact" class="btn-primary magnetic" data-reveal="up" data-delay="0.3">
+          <span>Begin Your Transformation →</span>
+        </a>
+      </div>
+      <!-- Right -->
+      <div data-reveal="right" data-delay="0.15">
+        <div class="philosophy-contrast">
+          <div class="contrast-col contrast-no">
+            <div class="contrast-title">We leave behind</div>
+            <div class="contrast-item"><span class="contrast-icon">✗</span><span>Crash diets & starvation</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✗</span><span>Temporary transformations</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✗</span><span>Generic meal templates</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✗</span><span>Obsessive calorie counting</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✗</span><span>Ignoring hormones</span></div>
+          </div>
+          <div class="contrast-col contrast-yes">
+            <div class="contrast-title">We build instead</div>
+            <div class="contrast-item"><span class="contrast-icon">✓</span><span>Sustainable nutrition systems</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✓</span><span>Long-term health habits</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✓</span><span>Personalized weekly plans</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✓</span><span>Metabolic resilience</span></div>
+            <div class="contrast-item"><span class="contrast-icon">✓</span><span>Strong, confident bodies</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     WHY MĀTRĀŚIN
+══════════════════════════════════════════ -->
+<section id="why">
+  <div class="container">
+    <div style="text-align:center; max-width:560px; margin:0 auto;">
+      <span class="section-label" data-reveal="up">Why Choose Us</span>
+      <h2 class="section-title" data-reveal="up" data-delay="0.1">
+        Built differently.<br><em>For you.</em>
+      </h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card" data-reveal="up">
+        <div class="why-icon">🎯</div>
+        <h3>Truly Personalized Plans</h3>
+        <p>No repetition. Every 7-day plan is unique to your body, lifestyle, and goals — never a cookie-cutter template.</p>
+      </div>
+      <div class="why-card" data-reveal="up">
+        <div class="why-icon">📞</div>
+        <h3>Weekly Guidance & Counselling</h3>
+        <p>Regular video consultations to adjust, motivate, and ensure you're progressing on your unique health journey.</p>
+      </div>
+      <div class="why-card" data-reveal="up">
+        <div class="why-icon">🔥</div>
+        <h3>Fat Loss + Muscle Focus</h3>
+        <p>Body recomposition done right. Same weight, different body — less fat, more muscle, better performance.</p>
+      </div>
+      <div class="why-card" data-reveal="up">
+        <div class="why-icon">⚖️</div>
+        <h3>Hormone-Friendly Approach</h3>
+        <p>Nutrition plans designed around your hormonal health — thyroid, PCOS, menstrual health, and beyond.</p>
+      </div>
+      <div class="why-card" data-reveal="up">
+        <div class="why-icon">🌱</div>
+        <h3>Real Sustainable Results</h3>
+        <p>5–20 year vision. We don't build 3-month transformations. We build lifelong metabolic health systems.</p>
+      </div>
+      <div class="why-card" data-reveal="up">
+        <div class="why-icon">🏥</div>
+        <h3>Medical Customization</h3>
+        <p>Every plan factors in your medical reports, medications, and existing conditions for safe, effective results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════ -->
+<section id="about">
+  <div class="about-bg-circle about-bg-c1"></div>
+  <div class="about-bg-circle about-bg-c2"></div>
+  <div class="container">
+    <div class="about-grid">
+      <!-- Image -->
+      <div class="about-image-wrap" data-reveal="left">
+        <div class="about-image-placeholder">
+          <span class="about-image-icon">👩‍⚕️</span>
+          <span class="about-image-name">Dt. Pragna Pandav Katariya</span>
+        </div>
+        <div class="about-badge">
+          <div class="about-badge-num">7+</div>
+          <div class="about-badge-text">Credentials</div>
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="about-content" data-reveal="right" data-delay="0.1">
+        <span class="section-label">Meet the Founder</span>
+        <h2 class="section-title">
+          Dt. Pragna<br><em>Pandav Katariya</em>
+        </h2>
+        <div class="divider"></div>
+        <p class="about-bio">
+          A multi-credentialed dietitian and sports nutritionist with a deep passion for women's health. Pragna combines cutting-edge nutritional science with a compassionate, systems-based approach to transform how women relate to food and their bodies.
+        </p>
+        <blockquote class="about-quote">
+          "I don't give diet plans. I build systems that change lives."
+        </blockquote>
+        <div class="credentials-grid">
+          <div class="credential-item"><span class="credential-dot"></span><span>MSc Dietetics & Food Nutrition</span></div>
+          <div class="credential-item"><span class="credential-dot"></span><span>MSc Sports Science</span></div>
+          <div class="credential-item"><span class="credential-dot"></span><span>BSc Nutrition & Dietetics</span></div>
+          <div class="credential-item"><span class="credential-dot"></span><span>Bachelor of Pharmacy</span></div>
+          <div class="credential-item"><span class="credential-dot"></span><span>Certified Sports Nutritionist</span></div>
+          <div class="credential-item"><span class="credential-dot"></span><span>Certified Diabetes Educator</span></div>
+          <div class="credential-item"><span class="credential-dot"></span><span>Advanced Yoga Teacher (900 hrs)</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     BRAND PHILOSOPHY / SANSKRIT
+══════════════════════════════════════════ -->
+<section id="brand-philosophy">
+  <div class="container">
+    <span class="section-label" data-reveal="up">Our Name, Our Promise</span>
+
+    <div class="sanskrit-card tilt-card" data-reveal="scale" data-delay="0.1">
+      <div class="sanskrit-word">Mātrāśin</div>
+      <div class="sanskrit-breakdown">
+        <div class="sanskrit-part">
+          <span>Mātrā</span>
+          <em>Measure</em>
+        </div>
+        <span class="sanskrit-plus">+</span>
+        <div class="sanskrit-part">
+          <span>Ashin</span>
+          <em>One who eats</em>
+        </div>
+      </div>
+      <p class="sanskrit-meaning">"One who eats in measured quantities"</p>
+    </div>
+
+    <div class="philosophy-pillars">
+      <div class="pillar-card" data-reveal="up">
+        <div class="pillar-num">01</div>
+        <h3>Mindful Eating</h3>
+        <p>Food is not your enemy — it is medicine. We teach you to listen to your body and eat with intention, not fear or guilt.</p>
+      </div>
+      <div class="pillar-card" data-reveal="up">
+        <div class="pillar-num">02</div>
+        <h3>Sustainable Lifestyle</h3>
+        <p>No extreme restrictions. No crash periods. A beautifully calibrated lifestyle you can maintain for decades — joyfully.</p>
+      </div>
+      <div class="pillar-card" data-reveal="up">
+        <div class="pillar-num">03</div>
+        <h3>Long-Term Vision</h3>
+        <p>Every decision is made with your future self in mind. We plan for your health 5–20 years ahead, not 5 weeks.</p>
+      </div>
+    </div>
+
+    <p class="philosophy-sig" data-reveal="up" data-delay="0.2">
+      "This is not a 3-month transformation. This is a lifelong upgrade."
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PROGRAMS & SERVICES
+══════════════════════════════════════════ -->
+<section id="programs">
+  <div class="container">
+    <div class="programs-header">
+      <div>
+        <span class="section-label" data-reveal="up">Programs & Services</span>
+        <h2 class="section-title" data-reveal="up" data-delay="0.1">
+          Designed for<br><em>every woman's</em><br>journey.
+        </h2>
+      </div>
+      <div data-reveal="up" data-delay="0.15" style="align-self:end;">
+        <p style="font-size:15px; color:var(--mid-brown); line-height:1.75; margin-bottom:24px;">
+          Each program is meticulously designed around your biology, lifestyle, and goals — never a template approach.
+        </p>
+        <a href="#contact" class="btn-secondary magnetic"><span>Explore All Programs</span></a>
+      </div>
+    </div>
+
+    <div class="programs-grid">
+      <div class="program-card" data-reveal="up">
+        <div class="program-bg"></div>
+        <div class="program-content">
+          <span class="program-tag">Most Popular</span>
+          <h3>Fat Loss & Body<br>Recomposition</h3>
+          <p>Same weight. Different body. Rebuild your composition without losing strength.</p>
+          <div class="program-arrow">→</div>
+        </div>
+      </div>
+      <div class="program-card" data-reveal="up">
+        <div class="program-bg"></div>
+        <div class="program-content">
+          <span class="program-tag">For Strength</span>
+          <h3>Muscle Gain<br>for Women</h3>
+          <p>Evidence-based nutrition to build lean muscle and functional strength that lasts.</p>
+          <div class="program-arrow">→</div>
+        </div>
+      </div>
+      <div class="program-card" data-reveal="up">
+        <div class="program-bg"></div>
+        <div class="program-content">
+          <span class="program-tag">Specialized</span>
+          <h3>Thyroid & Hormonal<br>Health</h3>
+          <p>Targeted nutrition for thyroid disorders, PCOS, and hormonal imbalances.</p>
+          <div class="program-arrow">→</div>
+        </div>
+      </div>
+      <div class="program-card" data-reveal="up">
+        <div class="program-bg"></div>
+        <div class="program-content">
+          <span class="program-tag">Holistic</span>
+          <h3>Women's<br>Health Program</h3>
+          <p>Comprehensive wellness covering energy, digestion, immunity, and lifelong vitality.</p>
+          <div class="program-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PRICING
+══════════════════════════════════════════ -->
+<section id="pricing">
+  <div class="container">
+    <div style="text-align:center; max-width:560px; margin:0 auto;">
+      <span class="section-label" data-reveal="up">Transparent Pricing</span>
+      <h2 class="section-title" data-reveal="up" data-delay="0.1">
+        Invest in your<br><em>lifelong health.</em>
+      </h2>
+      <p data-reveal="up" data-delay="0.15" style="font-size:15px; color:var(--mid-brown); margin-top:16px; line-height:1.7;">
+        All plans include weekly personalized diet plans, video counselling, and ongoing support.
+      </p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- 1 Month -->
+      <div class="pricing-card" data-reveal="up">
+        <div class="pricing-duration">1 Month Plan</div>
+        <div class="pricing-price"><sup>₹</sup>3,000</div>
+        <div class="pricing-save">Best for getting started</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li><span>4 weekly diet plans (no repetition)</span></li>
+          <li><span>1 video counselling session</span></li>
+          <li><span>Medical customization</span></li>
+          <li><span>Chat support</span></li>
+        </ul>
+        <button class="btn-pricing" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          <span>Get Started</span>
+        </button>
+      </div>
+
+      <!-- 3 Month -->
+      <div class="pricing-card" data-reveal="up">
+        <div class="pricing-duration">3 Month Plan</div>
+        <div class="pricing-price"><sup>₹</sup>8,000</div>
+        <div class="pricing-save">Save ₹1,000 vs monthly</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li><span>12 weekly diet plans (no repetition)</span></li>
+          <li><span>3 video counselling sessions</span></li>
+          <li><span>Medical customization</span></li>
+          <li><span>Chat support</span></li>
+          <li><span>Travel & festival planning</span></li>
+        </ul>
+        <button class="btn-pricing" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          <span>Get Started</span>
+        </button>
+      </div>
+
+      <!-- 6 Month - FEATURED -->
+      <div class="pricing-card featured" data-reveal="up">
+        <div class="pricing-badge">Best Value</div>
+        <div class="pricing-duration">6 Month Plan</div>
+        <div class="pricing-price"><sup>₹</sup>15,000</div>
+        <div class="pricing-save">Save ₹3,000 vs monthly</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li><span>24 weekly diet plans (no repetition)</span></li>
+          <li><span>6 video counselling sessions</span></li>
+          <li><span>Medical customization</span></li>
+          <li><span>Priority chat support</span></li>
+          <li><span>Travel & festival planning</span></li>
+        </ul>
+        <button class="btn-pricing" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          <span>Get Started</span>
+        </button>
+      </div>
+
+      <!-- 12 Month -->
+      <div class="pricing-card" data-reveal="up">
+        <div class="pricing-duration">12 Month Plan</div>
+        <div class="pricing-price"><sup>₹</sup>25,000</div>
+        <div class="pricing-save">Save ₹11,000 vs monthly</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li><span>52 weekly diet plans (no repetition)</span></li>
+          <li><span>12 video counselling sessions</span></li>
+          <li><span>Medical customization</span></li>
+          <li><span>Priority chat support</span></li>
+          <li><span>Travel & festival planning</span></li>
+          <li><span>Complete lifestyle transformation</span></li>
+        </ul>
+        <button class="btn-pricing" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          <span>Get Started</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     RESULTS
+══════════════════════════════════════════ -->
+<section id="results">
+  <div class="container">
+    <div style="text-align:center; max-width:560px; margin:0 auto;">
+      <span class="section-label" data-reveal="up">What You Gain</span>
+      <h2 class="section-title" data-reveal="up" data-delay="0.1">
+        Same weight.<br><em>Different body.</em><br>Different life.
+      </h2>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card" data-reveal="up">
+        <span class="result-icon">⚡</span>
+        <h3>Better Energy All Day</h3>
+        <p>No more afternoon crashes or morning fog. Your nutrition fuels consistent, sustained energy throughout the day.</p>
+      </div>
+      <div class="result-card" data-reveal="up">
+        <span class="result-icon">🌿</span>
+        <h3>Improved Digestion</h3>
+        <p>A gut-friendly approach that reduces bloating, improves nutrient absorption, and creates lasting digestive comfort.</p>
+      </div>
+      <div class="result-card" data-reveal="up">
+        <span class="result-icon">💪</span>
+        <h3>Fat Loss + Real Strength</h3>
+        <p>Lose fat, build muscle, and actually feel stronger — not just lighter. Body recomposition that truly lasts.</p>
+      </div>
+      <div class="result-card" data-reveal="up">
+        <span class="result-icon">🌸</span>
+        <h3>Hormone Balance</h3>
+        <p>Nutrition tailored to your hormonal cycle. Less PMS, better mood, and improved hormonal markers over time.</p>
+      </div>
+      <div class="result-card" data-reveal="up">
+        <span class="result-icon">✨</span>
+        <h3>Confidence & Clarity</h3>
+        <p>When your body works well, your mind follows. Clients report sharper focus, better sleep, and deep self-trust.</p>
+      </div>
+      <div class="result-card" data-reveal="up">
+        <span class="result-icon">♾️</span>
+        <h3>Weight Stays Off</h3>
+        <p>Because you learn how to live. No yo-yo, no regain. The knowledge and habits stay with you forever.</p>
+      </div>
+    </div>
+
+    <div class="results-quote-wrap" data-reveal="up" data-delay="0.2">
+      <p class="results-quote">
+        You don't gain weight after the program — because you learn how to live.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CTA BAND
+══════════════════════════════════════════ -->
+<section id="cta">
+  <div class="cta-ring"></div>
+  <div class="cta-ring"></div>
+  <div class="cta-ring"></div>
+  <div class="container">
+    <div class="cta-inner">
+      <span class="cta-label" data-reveal="up">Ready to begin?</span>
+      <h2 class="cta-headline" data-reveal="up" data-delay="0.1">
+        Your lifelong health<br><em>starts today.</em>
+      </h2>
+      <p class="cta-sub" data-reveal="up" data-delay="0.18">
+        Join hundreds of women who've stopped dieting and started building. One consultation changes everything.
+      </p>
+      <div class="cta-btns" data-reveal="up" data-delay="0.24">
+        <a href="#contact" class="btn-cta-white magnetic">Book Free Consultation →</a>
+        <a href="#programs" class="btn-cta-outline magnetic">Explore Programs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     BLOG / INSIGHTS
+══════════════════════════════════════════ -->
+<section id="blog">
+  <div class="container">
+    <div class="blog-header">
+      <div>
+        <span class="section-label" data-reveal="up">Health Insights</span>
+        <h2 class="section-title" data-reveal="up" data-delay="0.1">
+          Read. Learn.<br><em>Understand your body.</em>
+        </h2>
+      </div>
+      <a href="#" class="btn-secondary magnetic" data-reveal="up"><span>All Articles</span></a>
+    </div>
+
+    <div class="blog-grid">
+      <div class="blog-card" data-reveal="up">
+        <div class="blog-img"><div class="blog-img-inner">⚖️</div></div>
+        <div class="blog-body">
+          <div class="blog-cat">Nutrition Science</div>
+          <h3>Why Weight Loss Is Not Fat Loss</h3>
+          <p>The scale lies. Here's the real science behind body composition and why the number doesn't tell the full story.</p>
+        </div>
+        <div class="blog-card-footer">
+          <span>5 min read</span>
+          <span>→</span>
+        </div>
+      </div>
+      <div class="blog-card" data-reveal="up">
+        <div class="blog-img"><div class="blog-img-inner">💊</div></div>
+        <div class="blog-body">
+          <div class="blog-cat">Macro Nutrients</div>
+          <h3>The Importance of Protein for Women</h3>
+          <p>Most women are chronically under-eating protein. Here's why it matters more than any other macro.</p>
+        </div>
+        <div class="blog-card-footer">
+          <span>4 min read</span>
+          <span>→</span>
+        </div>
+      </div>
+      <div class="blog-card" data-reveal="up">
+        <div class="blog-img"><div class="blog-img-inner">🦋</div></div>
+        <div class="blog-body">
+          <div class="blog-cat">Hormonal Health</div>
+          <h3>Thyroid & Nutrition: What No One Tells You</h3>
+          <p>Your thyroid controls your metabolism. Learn how specific foods support or sabotage thyroid function.</p>
+        </div>
+        <div class="blog-card-footer">
+          <span>6 min read</span>
+          <span>→</span>
+        </div>
+      </div>
+      <div class="blog-card" data-reveal="up">
+        <div class="blog-img"><div class="blog-img-inner">🚫</div></div>
+        <div class="blog-body">
+          <div class="blog-cat">Mindset</div>
+          <h3>Why Every Diet You've Tried Has Failed</h3>
+          <p>It's not your willpower. It's the design. The science of why restrictive diets are built to fail.</p>
+        </div>
+        <div class="blog-card-footer">
+          <span>7 min read</span>
+          <span>→</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Info -->
+      <div data-reveal="left">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="contact-info" style="font-family:var(--font-display); font-size:clamp(2rem,3vw,2.8rem); font-weight:300; margin-bottom:20px; color:var(--charcoal); line-height:1.2;">
+          Book Your<br>
+          <em style="font-style:italic; color:var(--sage-dark);">Consultation</em><br>
+          Today
+        </h2>
+        <div class="divider"></div>
+        <p style="font-size:15px; color:var(--mid-brown); margin-bottom:40px; line-height:1.7;">
+          Ready to stop dieting and start building? A single conversation can change the direction of your health forever.
+        </p>
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div class="contact-item-text">
+            <label>Phone / WhatsApp</label>
+            <span>+91 82380 99410</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <label>Location</label>
+            <span>Valsad, Gujarat</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌐</div>
+          <div class="contact-item-text">
+            <label>Consultations</label>
+            <span>Online & In-Person Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div data-reveal="right" data-delay="0.1">
+        <div class="contact-form-wrap">
+          <h3 class="contact-form-title">Start Your Journey</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+91 00000 00000">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Your Health Goal</label>
+            <select>
+              <option value="" disabled selected>Select your primary goal</option>
+              <option>Fat Loss & Body Recomposition</option>
+              <option>Muscle Gain</option>
+              <option>Thyroid & Hormonal Health</option>
+              <option>Women's Health & Wellness</option>
+              <option>Diabetes Management</option>
+              <option>General Nutrition Guidance</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell Us More</label>
+            <textarea placeholder="Share a bit about your current health situation and what you'd like to achieve..."></textarea>
+          </div>
+          <button class="form-submit" onclick="handleSubmit(this)">
+            <span>Book Your Consultation →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-brand-logo">Mātrāśin</div>
+        <div class="footer-brand-sub">by Pragna</div>
+        <p>Science-based nutrition for women who want strength, balance, and sustainable results — not quick fixes.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#programs">Fat Loss & Recomposition</a></li>
+          <li><a href="#programs">Muscle Gain for Women</a></li>
+          <li><a href="#programs">Thyroid & Hormonal Health</a></li>
+          <li><a href="#programs">Women's Health</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Pragna</a></li>
+          <li><a href="#brand-philosophy">Our Philosophy</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#blog">Health Insights</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+918238099410">+91 82380 99410</a></li>
+          <li><a href="#contact">Book Consultation</a></li>
+          <li><a href="#">Valsad, Gujarat</a></li>
+          <li><a href="#">WhatsApp Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2025 Mātrāśin by Pragna. All rights reserved.</span>
+      <span class="footer-copy">Designed with care for women's health.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ JS ══════════ -->
+<script src="main.js"></script>
+</body>
+</html>

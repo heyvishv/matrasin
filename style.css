@@ -209,13 +209,9 @@ nav.scrolled {
 .nav-cta span { position: relative; z-index: 1; }
 .nav-cta:hover { color: var(--cream) !important; }
 .nav-cta:hover::before { transform: scaleX(1); }
-.hamburger {
-  display: none; flex-direction: column; gap: 5px; cursor: none;
-  background: none; border: none; padding:0;
-}
-.hamburger {
-  display: none; flex-direction: column; gap: 5px; cursor: none;
-  background: none; border: none; padding: 0; line-height: 0;
+.hamburger span {
+  display: block; width: 24px; height: 1.5px; background: var(--charcoal);
+  transition: all 0.4s var(--ease-out-expo);
 }
 .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
 .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }

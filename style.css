@@ -210,8 +210,8 @@ nav.scrolled {
 .nav-cta:hover { color: var(--cream) !important; }
 .nav-cta:hover::before { transform: scaleX(1); }
 .hamburger {
-  display: none; flex-direction: column; justify-content: space-between;
-  background: none; border: none; padding: 0; width: 24px; height: 16px; cursor: pointer;
+  display: none; flex-direction: column; gap: 5px; cursor: none;
+  background: none; border: none; padding: 4px;
 }
 .hamburger span {
   display: block; width: 24px; height: 1.5px; background: var(--charcoal);
